@@ -1,0 +1,19 @@
+<header>
+    <div class="notifications-bar"></div>
+    <div class="container">
+        <div class="logo">
+            <a href="/">
+                <img src="https://www.boolean.careers/images/misc/logo.png" alt="">
+            </a>
+        </div>
+        <div class="navbar">
+            <ul>
+                @foreach(config('navigation.routes') as $route)
+                    <li class="unstyled-list">
+                        <a href="{{route($route['path'])}}">{{$route['title']}}</a>
+                    </li>
+                @endforeach
+            </ul>
+        </div>
+    </div>
+</header>
