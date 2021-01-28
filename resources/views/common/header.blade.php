@@ -10,7 +10,7 @@
             <ul>
                 @foreach(config('navigation.routes') as $route)
                     <li class="unstyled-list">
-                        <a href="{{route($route['path'])}}">{{$route['title']}}</a>
+                        <a href="{{route($route['path'])}}" class="{{Route::currentRouteName() == $route['path'] ? 'active' : '' }} {{$route['path'] ==  'iscriviti' ? 'cta' : ''}}">{{$route['title']}}</a>
                     </li>
                 @endforeach
             </ul>
