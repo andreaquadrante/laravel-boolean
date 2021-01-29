@@ -32,3 +32,5 @@ Route::get('/lezione-gratuita', function () {
 Route::get('/iscriviti', function () {
     return view('iscriviti');
 })->name('iscriviti');
+
+Route::get('/users', 'UsersController@index')->name('users');

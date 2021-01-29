@@ -3,7 +3,7 @@
     <div class="container">
         <div class="logo">
             <a href="/">
-                <img src="https://www.boolean.careers/images/misc/logo.png" alt="">
+                <img src="https://www.boolean.careers/images/misc/logo.png" alt="Logo">
             </a>
         </div>
         <div class="navbar">

@@ -9,6 +9,9 @@
 </head>
 <body>
     @include('common.header')
+    <div class="routes-nav">
+        <a href="/users">USERS DB</a>
+    </div>
     <div id="content">
         @yield('content')
     </div>
